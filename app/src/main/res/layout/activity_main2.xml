@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Main2Activity">
+
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" app:srcCompat="@drawable/kilimanjaro"
+            android:id="@+id/imwkilimanjaro" android:layout_marginTop="40dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+            android:contentDescription="@string/app_name"/>
+    <EditText
+            android:layout_width="394dp"
+            android:layout_height="77dp"
+            android:inputType="textPersonName"
+            android:text="@string/app_name"
+            android:ems="10"
+            android:id="@+id/edtkilimanjaro" android:layout_marginTop="48dp"
+            app:layout_constraintTop_toBottomOf="@+id/imwkilimanjaro" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent" android:layout_marginRight="8dp"
+            app:layout_constraintHorizontal_bias="0.286" tools:text="Mt Kilimanjaro is a dormant volcano in Tanzania"
+            android:hint="@string/app_name" android:autofillHints="" tools:targetApi="o"/>
+    <Button
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnprev" android:layout_marginTop="128dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtkilimanjaro" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="28dp" android:layout_marginStart="28dp"
+            app:layout_constraintEnd_toStartOf="@+id/btnnext" android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.095" tools:text="Prev"/>
+    <Button
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnnext" android:layout_marginTop="124dp"
+            app:layout_constraintTop_toBottomOf="@+id/edtkilimanjaro" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="52dp" android:layout_marginRight="52dp" tools:text="Next"/>
+</android.support.constraint.ConstraintLayout>

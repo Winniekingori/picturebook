@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">picturebook</string>
+    <string name="prev">Prev</string>
+    <string name="next">Next</string>
+    <string name="mt_longonot_is_a_stratovolcano_in_se_of_lk_naivasha">mt longonot is a stratovolcano in se of lk naivasha
+    </string>
+    <string name="todo">TODO</string>
 </resources>
